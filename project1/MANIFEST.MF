@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_85-b01 (Oracle Corporation)
+Main-Class: com.jel.mindstorms.Main
+Class-Path: /home/root/lejos/lib/ev3classes.jar /home/root/lejos/libjna/usr/share/java/jna.jar
+
