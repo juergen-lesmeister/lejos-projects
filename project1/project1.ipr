@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactManager">
+    <artifact type="jar" build-on-make="true" name="project1">
+      <output-path>$PROJECT_DIR$/out/artifacts/project1</output-path>
+      <root id="archive" name="project1.jar">
+        <element id="module-output" name="project1" />
+        <element id="library" level="project" name="ev3classes" />
+      </root>
+    </artifact>
+  </component>
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />

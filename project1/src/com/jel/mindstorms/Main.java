@@ -6,17 +6,19 @@ import lejos.hardware.BrickInfo;
 import lejos.hardware.ev3.EV3;
 import lejos.hardware.lcd.*;
 import lejos.hardware.motor.Motor;
+import lejos.utility.Delay;
 
 public class Main {
 
     public static void main(String[] args) {
-        //BrickInfo q[] = BrickFinder.discover();
-        //int i = 0;
-        //ev3.getVideo();
+        GraphicsLCD g = BrickFinder.getDefault().getGraphicsLCD();
+        final int SW = g.getWidth();
+        final int SH = g.getHeight();
 
-        LCD.drawString("Hello", 0, 0);
-
-        Motor.A.rotate(10);
-
+        g.setFont(Font.getLargeFont());
+        g.drawString("Hallo Finn", SW/2, SH/2, GraphicsLCD.BASELINE|GraphicsLCD.HCENTER);
+        Delay.msDelay(2000);
+        g.clear();
+        g.refresh();
     }
 }
