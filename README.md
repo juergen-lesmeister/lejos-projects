@@ -1,9 +1,10 @@
-# lejos-projects
-My lejos projects
+# leJOS-projects
+My leJOS projects
 
 ## Setup (Windows 7)
 
-### Create bootable SD card as described on the lojos page, insert into brick and start the EV3.
+### Create leJOS
+Create bootable SD card as described on the leJOS page, insert into brick and start the EV3.
 
 ### Installing the RNDIS driver
 * Connect the EV3 brick with the USB cable to the PC
@@ -23,4 +24,13 @@ The EV3 brick is now correctly installed, but still I couldn't connect to it, fo
 So I needed to do the following:
 
 ### Connecting to the EV3 brick
-
+* In the Windows "Systemsteuerung" select "Netzwerk- und Freigabecenter"
+* Rename the adapter to EV3
+* In the left column choose "Adaptereinstellungen ändern"
+* Double-click your network adapter with type "Internet"
+* Open "Properties" and switch to the "Freigabe" tab
+* Enable "Gemeinsame Nutzung der Internetverbindung", "Anderen Benutzern im Netzwerk gestatten, diese Verbindung
+des Computers als Internetverbindung zu verwenden"
+* Select for the "Heimnetzwerkverbindung" the EV3 adapter 
+* After a couple of seconds the EV3 brick has obtained an IP address
+* You can now ssh to the brick using root/<no password> credentials
