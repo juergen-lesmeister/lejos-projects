@@ -15,7 +15,7 @@ public class Main {
         final int SW = g.getWidth();
         final int SH = g.getHeight();
 
-        g.setFont(Font.getLargeFont());
+        g.setFont(Font.getDefaultFont());
         g.drawString("Hallo Finn", SW/2, SH/2, GraphicsLCD.BASELINE|GraphicsLCD.HCENTER);
         Delay.msDelay(2000);
         g.clear();
