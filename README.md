@@ -35,4 +35,4 @@ des Computers als Internetverbindung zu verwenden"
 * After a couple of seconds the EV3 brick has obtained an IP address
 * You can now ssh to the brick using root/<no password> credentials
 * Or you can use _ev3control_ to connect
-![alt text](https://github.com/juergen-lesmeister/lejos-projects/img/console_ip.jpg "EV3 screen")
+![alt text](https://github.com/juergen-lesmeister/lejos-projects/blob/master/img/console_ip.jpg "EV3 screen")
