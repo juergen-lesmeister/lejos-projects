@@ -17,7 +17,9 @@ public class Main {
 
         g.setFont(Font.getDefaultFont());
         g.drawString("Hallo Finn", SW/2, SH/2, GraphicsLCD.BASELINE|GraphicsLCD.HCENTER);
-        Delay.msDelay(2000);
+        g.drawRect(10,10, 158, 108);
+        Delay.msDelay(3000);
+
         g.clear();
         g.refresh();
     }
